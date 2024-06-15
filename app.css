@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+window {
+    background: #ffffff;
+}
+
+button {
+    border-radius: 0;
+    border-width: 1px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #ff4343; /* Change background color on hover */
+    color: #333333; /* Change text color on hover */
+}
+
+entry {
+    border-radius: 0;
+    border-width: 1px;
+    padding: 5px;
+}
+
+dialog {
+    background: #ffffff;
+}
+
+#main-box {
+    padding: 20px;
+}
+
+#button-box {
+    margin-top: 20px;
+}
